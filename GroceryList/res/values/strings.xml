@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grocery List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_name">Enter Item</string>
+    <string name="price">Enter Price</string>
+    <string name="Grocery_String">Small Text</string>
+    <string name="Price_String">Small Text</string>
+    <string name="Remove_String">Remove</string>
+    <string name="total_string">Total</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_secondary">second</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Add_Grocery_Items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/border"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/Grocery_Item"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.46"
+        android:ems="10"
+        android:hint="@string/item_name"
+        android:paddingRight="5dp" />
+
+    <EditText
+        android:id="@+id/Price_Item"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.61"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/price"
+        android:paddingRight="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Add_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+</LinearLayout>
